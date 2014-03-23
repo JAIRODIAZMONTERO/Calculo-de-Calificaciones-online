@@ -1,0 +1,153 @@
+#tbl{
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;	
+	
+}
+
+form{
+	
+}
+
+fieldset{
+	height: 430px;
+	width: 1000px;
+	margin-left: 170px;
+	margin-top: +50px;
+	background-color: white;
+}
+
+body{
+	font-family: "Calibri",verdana, "Tahoma";
+	background-color: AliceBlue;
+}
+
+legend{
+	font-size: 20px;
+}
+
+th{
+	border: 2px solid black;
+	background-color: black;
+	color: white;
+	height: 20px;
+	width: 115px;	
+}
+
+#extra{
+	width:17px;
+}
+
+#thDel{
+	width: 10px;
+}
+
+#col{
+	border: 2px solid blue;
+}
+
+#contenedor{
+	margin-left: 165px;
+}
+
+#divTabla{
+	background-color: MediumSeaGreen;
+	border-bottom: 3px solid MediumSeaGreen;
+	border-top: 2px solid MediumSeaGreen;
+	margin-left: 0px;
+	margin-top: 20px;
+	height: 350px;	
+	overflow: auto;
+	width: 995;
+}
+
+tbody{
+	overflow: auto;
+}
+
+#logo{
+	width: 170px;
+	height: 170px;
+	margin-top: -135px;
+	margin-left: +20px;
+}
+
+#franja{
+	height: 140px;
+	width: 1370px;
+	margin-left: -10px;
+	margin-top: -540px;
+	background-color: DodgerBlue;
+}
+
+#tituloSitio{
+	margin-top: -115px;
+	font-size: 68px;
+	margin-left: 100px;
+	color: white;
+	font-family: verdana;
+}
+
+#btnGuardar, #btnAgregar{	
+	border-radius: 7px;
+	border-left: 2px solid MediumSeaGreen;
+	border-top: 2px solid MediumSeaGreen;
+	cursor: pointer;
+	font-size: 14px;
+	height: 30px;
+	width: 150px;	
+}
+
+#btnAgregar{	
+	background: url("images/agregar.png");
+	background-position: 13px 1px;
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-color: LightGray;
+	margin-left: 50px;
+	margin-top: 4px;
+}
+
+#btnGuardar{
+	background: url("images/guardar.png");
+	background-position: 13px 1px;
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-color: LightGray;
+	top: 198px;
+	left: 410px;
+	position: absolute;
+}
+
+.btnBorrar{
+	width: auto;
+	height:20px;
+	cursor: pointer;
+}
+
+.btnBorrar:hover{
+	width: 20px;
+	height: 20px;
+}
+
+input{
+	width: 105px;
+	text-align: center;
+}
+
+#mainContainer{
+	width: 400px;
+	height: 500px;
+}
+
+.txt{
+	font-size: 14px;
+}
+
+.txtReadonly{
+	background-color: Gainsboro;
+}
+
+.clsGris{
+	background-color: SkyBlue;
+}
